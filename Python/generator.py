@@ -104,5 +104,7 @@ def main():
             f"-> {packet.hex(' ')}"
            )
       
+    time.sleep(DELAY_SECONDS)
+      
 if __name__ == "__main__":
   main()
